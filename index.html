@@ -3,74 +3,80 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Alejandro Urbano</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
-<body>
+<body class="fondo">
     <header>
-        <H1>PAGINA C3 HENRY</H1>
+        <div class="head">
+            <img class="imageperf" src="img/perfil.jpg">
+            <H1 class="title">Alejandro Urbano</H1>
+            <h2>Web Dev Henry</h2>
+        </div>
     </header>
 
     <main>
 
         <div>
-        <H2>Esto es lo que aprendi en la C3 del PrepCourse</H2>
         
-        <p>
-            El Lenguaje de Marcado de Hipertexto (HTML) es el código que se utiliza para estructurar y desplegar una página web y sus contenidos.
-            Por ejemplo, sus contenidos podrían ser párrafos, una lista con viñetas, o imágenes y tablas de datos.
+        <p class="miTexto">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Minima repudiandae, magni ducimus praesentium eius rem architecto quibusdam aliquid libero mollitia, autem dolorem. 
+            Aliquam reprehenderit alias vitae quibusdam eos cum officiis?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Suscipit at hic ipsa dolore nemo recusandae libero et, qui inventore, laudantium neque sapiente repudiandae? 
+            Omnis quia necessitatibus itaque quae veniam hic.
         </p>
-
-        <img src="img/html.jpg">
         </div>
 
-        <hr />
 
-        <div>
-            <h3>ETIQUETAS DE BLOQUE HTML</h3>
+        <section>
+            <div id="cards-container">
 
-            <ul>
-                <li>
-                    header
-                </li>
-                <li>
-                    main
-                </li>
-                <li>
-                    section
-                </li>
-                <li>
-                    article
-                </li>
-                <li>
-                    div
-                </li>
-            </ul>
-        </div>
+                <div class="cards">
+                    <h2>Esto es HTML</h2>
+                    <img class="imag"  src="img/html.jpg">
+                </div>
+                <div class="cards">
+                    <h2>Esto es HTML</h2>
+                    <img class="imag"  src="img/html.jpg">
+                </div>
+                <div class="cards">
+                    <h2>Esto es HTML</h2>
+                    <img class="imag"  src="img/html.jpg">
+                </div>
+            </div>
+        </section>        
 
     </main>
 
-    <hr />
+
+
 
     <footer>
-
-        <form>
+        <div id="container-footer">
+            <img class="img-footer" src="img/perfil.jpg">
+            <h1 class="title-footer">Alejandro Urbano</h1>
+        <form id="form">
+            <h3>Contactame!</h3>
             <div>
-                <label for="name">Nombre</label>
-                <input type="text" name="name">
+                <label for="name"></label>
+                <input placeholder="Nombre" type="text" name="name">
             </div>
 
             <div>
-                <label for="apellido">Apellido</label>
-                <input type="text" name="apellido">
+                <label for="apellido"></label>
+                <input placeholder="Apellido" type="text" name="apellido">
             </div>
 
             <div>
-                <label for="email">Email</label>
-                <input type="email" name="email">
+                <label for="email"></label>
+                <input placeholder="Email" type="text" name="email">
             </div>
 
-            <button>Enviar</button>
+            <button class="send">Enviar</button>
         </form>
+        </div>
     </footer>
 
 </body>
